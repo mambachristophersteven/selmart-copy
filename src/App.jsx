@@ -1,12 +1,14 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
+import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer'
 
 const Layout = () => {
   return(
     <div className='app'>
-      <h1>navbar</h1>
+      <Navbar />
       <Outlet />
-      <h1>footer</h1>
+      <Footer />
     </div>
   )
 }
