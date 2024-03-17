@@ -46,6 +46,9 @@ const Navbar = () => {
             <input type="button" value="search" />
           </form>
         </div>
+        <div className="side-links">
+          
+        </div>
       </div>
       {/* {
         categories.map(categoryItem=>{
