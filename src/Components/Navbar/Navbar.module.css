@@ -9,4 +9,16 @@
 
 .logo{
     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_name{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: akshar;
+}
+
+.logo_name span{
+    
 }
