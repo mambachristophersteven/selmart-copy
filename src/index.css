@@ -15,6 +15,10 @@
     src: url(./assets/Raleway-SemiBold.ttf);
 }
 @font-face {
+    font-family: ralewayXBold;
+    src: url(./assets/Raleway-ExtraBold.ttf);
+}
+@font-face {
     font-family: akshar;
     src: url(./assets/Akshar-Regular.ttf);
 }
