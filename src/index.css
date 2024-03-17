@@ -1,3 +1,24 @@
+@font-face {
+    font-family: raleway;
+    src: url(./assets/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: ralewayBold;
+    src: url(./assets/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: ralewayMid;
+    src: url(./assets/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: ralewaySemi;
+    src: url(./assets/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: akshar;
+    src: url(./assets/Akshar-Regular.ttf);
+}
+
 :root{
     --primary-color: rgba(102, 136, 68, 1);
     --black: rgba(0, 0, 0, 1);
