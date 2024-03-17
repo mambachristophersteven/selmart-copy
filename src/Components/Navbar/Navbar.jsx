@@ -8,13 +8,13 @@ import cart_icon from '../../assets/cart-icon.svg'
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <div className="logo">
-        <a href="#">
+      <div className={styles.logo}>
+        <a href="#" className={styles.logo}>
           <img src={selmart_logo} alt="" />
-          <p className="logo-name">sel<span>mart</span></p>
+          <p className={styles.logo_name}>sel<span>mart</span></p>
         </a>
       </div>
-      <div className="nav-links">
+      <div className={styles.nav_links}>
         <ul>
           <li>
             <a href="#">
@@ -42,37 +42,37 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="search-side-links">
-        <div className="search">
+      <div className={styles.search_side_links}>
+        <div className={styles.search}>
           <form action="#">
             <input type="text" name="search" id="search" />
             <input type="button" value="search" />
           </form>
         </div>
-        <div className="side-links">
-          <div className="side-link">
+        <div className={styles.side_links}>
+          <div className={styles.side_link}>
             <a href="#">
-              <div className="side-link-icon">
+              <div className={styles.side_link_icon}>
                 <img src={account_icon} alt="" />
               </div>
-              <p className="side-link-text">account</p>
+              <p className={styles.side_link_text}>account</p>
             </a>
           </div>
-          <div className="side-link">
+          <div className={styles.side_link}>
             <a href="#">
-              <div className="side-link-icon">
+              <div className={styles.side_link_icon}>
                 <img src={support_icon} alt="" />
               </div>
-              <p className="side-link-text">support</p>
+              <p className={styles.side_link_text}>support</p>
             </a>
           </div>
-          <div className="side-link">
+          <div className={styles.side_link}>
             <a href="#">
-              <div className="side-link-icon">
+              <div className={styles.side_link_icon}>
                 <img src={cart_icon} alt="" />
-                <p className="counter">2</p>
+                <p className={styles.counter}>2</p>
               </div>
-              <p className="side-link-text">cart</p>
+              <p className={styles.side_link_text}>cart</p>
             </a>
           </div>
         </div>
