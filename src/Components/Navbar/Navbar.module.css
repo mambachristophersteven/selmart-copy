@@ -23,3 +23,8 @@
 .logo_name span{
  color: var(--mart-text-color);
 }
+
+.nav_links ul{
+    display: flex;
+    align-items: center;
+}
