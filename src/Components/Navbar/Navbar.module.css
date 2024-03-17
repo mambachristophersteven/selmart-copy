@@ -28,3 +28,11 @@
     display: flex;
     align-items: center;
 }
+
+.search_side_links{
+    display: flex;
+}
+
+.side_links{
+    display: flex;
+}
