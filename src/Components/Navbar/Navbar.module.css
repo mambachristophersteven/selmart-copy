@@ -17,8 +17,9 @@
     font-size: 30px;
     text-transform: capitalize;
     font-family: akshar;
+    color: var(--sel-text-color);
 }
 
 .logo_name span{
-    
+ color: var(--mart-text-color);
 }
