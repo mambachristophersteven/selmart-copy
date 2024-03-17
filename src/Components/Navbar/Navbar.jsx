@@ -1,6 +1,9 @@
 import styles from './Navbar.module.css'
 import selmart_logo from '../../assets/selmart-logo.svg'
 import nav_on from '../../assets/nav-link.svg'
+import account_icon from '../../assets/account-icon.svg'
+import support_icon from '../../assets/support-icon.svg'
+import cart_icon from '../../assets/cart-icon.svg'
 
 const Navbar = () => {
   return (
@@ -47,7 +50,31 @@ const Navbar = () => {
           </form>
         </div>
         <div className="side-links">
-          
+          <div className="side-link">
+            <a href="#">
+              <div className="side-link-icon">
+                <img src={account_icon} alt="" />
+              </div>
+              <p className="side-link-text">account</p>
+            </a>
+          </div>
+          <div className="side-link">
+            <a href="#">
+              <div className="side-link-icon">
+                <img src={support_icon} alt="" />
+              </div>
+              <p className="side-link-text">support</p>
+            </a>
+          </div>
+          <div className="side-link">
+            <a href="#">
+              <div className="side-link-icon">
+                <img src={cart_icon} alt="" />
+                <p className="counter">2</p>
+              </div>
+              <p className="side-link-text">cart</p>
+            </a>
+          </div>
         </div>
       </div>
       {/* {
