@@ -41,7 +41,10 @@ const Navbar = () => {
       </div>
       <div className="search-side-links">
         <div className="search">
-          
+          <form action="#">
+            <input type="text" name="search" id="search" />
+            <input type="button" value="search" />
+          </form>
         </div>
       </div>
       {/* {
