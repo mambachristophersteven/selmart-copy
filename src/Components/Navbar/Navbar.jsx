@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className={styles.nav_links}>
         <ul>
-          <li>
+          <li className={styles.active_page}>
             <a href="#">
               <p>home</p>
               <img src={nav_on} alt="" />

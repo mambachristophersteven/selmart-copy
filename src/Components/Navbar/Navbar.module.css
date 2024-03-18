@@ -27,8 +27,33 @@
 .nav_links ul{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
+.nav_links ul li a{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav_links ul li a img{
+    visibility: hidden;
+}
+
+.nav_links ul p{
+    font-family: raleway;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.nav_links ul .active_page p{
+    font-family: ralewayBold;
+}
+
+.nav_links ul .active_page img{
+    visibility: visible;
+}
 .search_side_links{
     display: flex;
 }
