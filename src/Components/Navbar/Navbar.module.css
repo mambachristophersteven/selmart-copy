@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 5vw 20px 5vw;
+    border: 1.24px solid rgba(210, 210, 210, 1);
 }
 
 .logo{
@@ -99,7 +100,6 @@
 
 .side_links{
     display: flex;
-    border: 2px solid red;
     align-items: center;
     gap: 20px;
 }
@@ -108,4 +108,35 @@
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.side_link a p{
+    font-family: raleway;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+}
+
+.side_link_icon{
+    position: relative;
+}
+
+.side_link_icon .counter p{
+    font-family: ralewayXBold;
+    font-size: 8px;
+    color: white;
+}
+
+.counter{
+    position: absolute;
+    top: -40%;
+    right: -20%;
+    padding: 2px;
+    border-radius: 50px;
+    background-color: var(--orange-text);
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

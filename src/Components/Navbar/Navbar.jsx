@@ -70,7 +70,9 @@ const Navbar = () => {
             <a href="#">
               <div className={styles.side_link_icon}>
                 <img src={cart_icon} alt="" />
-                <p className={styles.counter}>2</p>
+                <div className={styles.counter}>
+                  <p>2</p>
+                </div>
               </div>
               <p className={styles.side_link_text}>cart</p>
             </a>
