@@ -2,6 +2,7 @@ import './App.css'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
+import Home from './Pages/Home/Home'
 
 const Layout = () => {
   return(
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     children:[
       {
         path: "/",
-        element: <h1>home</h1>
+        element: <Home />,
       },
       {
         path: "/about",
