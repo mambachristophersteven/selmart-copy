@@ -31,6 +31,28 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className={styles.or_company}>
+        <p className={styles.heading}>our company</p>
+        <div className={styles.company_content}>
+          <p className={styles.content_text}>about us</p>
+          <p className={styles.content_text}>FAQs</p>
+          <p className={styles.content_text}>privacy policy</p>
+          <p className={styles.content_text}>terms of service</p>
+          <p className={styles.content_text}>delivery & returns</p>
+        </div>
+      </div>
+      <div className={styles.contact}>
+        <p className={styles.heading}>contact</p>
+        <div className={styles.top_content}>
+          <p className={styles.content_text}>123 Main Street,</p>
+          <p className={styles.content_text}>Accra Central,</p>
+          <p className={styles.content_text}>Accra, Ghana</p>
+        </div>
+        <div className={styles.down_content}>
+          <p className={styles.content_text}> info@selmartgrocery.com</p>
+          <p className={styles.content_text}> Phone: +1 (555) 123-4567</p>
+        </div>
+      </div>
     </div>
   )
 }
