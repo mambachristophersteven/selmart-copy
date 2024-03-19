@@ -17,7 +17,7 @@ const Footer = () => {
           <p className={styles.copyright_text}>All Rights Reserved.</p>
         </div>
         <div className={styles.socials}>
-          <p className={styles.socials_text}>Follow us on</p>
+          <p className={styles.heading}>Follow us on</p>
           <div className={styles.social_media}>
             <a href="#">
               <img src={facebook_logo} alt="" />
@@ -52,8 +52,8 @@ const Footer = () => {
           <p className={styles.content_text}>Accra, Ghana</p>
         </div>
         <div className={styles.down_content}>
-          <p className={styles.content_text}> info@selmartgrocery.com</p>
-          <p className={styles.content_text}> Phone: +1 (555) 123-4567</p>
+          <p className={styles.content_text}>info@selmartgrocery.com</p>
+          <p className={styles.content_text}>Phone: +1 (555) 123-4567</p>
         </div>
       </div>
       <div className={styles.payments_and_services}>
@@ -63,6 +63,15 @@ const Footer = () => {
           <img src={mastercard} alt="" />
           <img src={paypal} alt="" />
         </div>
+          <p className={styles.heading}>Make Money with us</p>
+          <div className={styles.make_money}>
+            <a href="#">
+              <p className={styles.content_text}>Sell on Selmart</p>
+            </a>
+            <a href="#">
+              <p className={styles.content_text}>Services Charges</p>
+            </a>
+          </div>
       </div>
     </div>
   )
