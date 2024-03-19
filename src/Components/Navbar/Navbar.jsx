@@ -4,8 +4,27 @@ import nav_on from '../../assets/nav-link.svg'
 import account_icon from '../../assets/account-icon.svg'
 import support_icon from '../../assets/support-icon.svg'
 import cart_icon from '../../assets/cart-icon.svg'
+import { useState } from 'react'
+
+
 
 const Navbar = () => {
+  const [current, setCurrent] = useState("home");
+
+  function activeHome(){
+    setCurrent("home");
+  }
+  function activeShop(){
+    setCurrent("shop");
+  }
+  function activeCategories(){
+    setCurrent("categories");
+  }
+  function activeDeals(){
+    setCurrent("deals");
+  }
+
+
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}>
@@ -16,25 +35,25 @@ const Navbar = () => {
       </div>
       <div className={styles.nav_links}>
         <ul>
-          <li className={styles.active_page}>
+          <li className={current ==="home"? styles.active_page:""} onClick={activeHome}>
             <a href="#">
               <p>home</p>
               <img src={nav_on} alt="" />
             </a>
           </li>
-          <li>
+          <li className={current ==="shop"? styles.active_page:""} onClick={activeShop}>
             <a href="#">
               <p>shop</p>
               <img src={nav_on} alt="" />
             </a>
           </li>
-          <li>
+          <li className={current ==="categories"? styles.active_page:""} onClick={activeCategories}>
             <a href="#">
               <p>categories</p>
               <img src={nav_on} alt="" />
             </a>
           </li>
-          <li>
+          <li className={current ==="deals"? styles.active_page:""} onClick={activeDeals}>
             <a href="#">
               <p>deals</p>
               <img src={nav_on} alt="" />
