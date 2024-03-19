@@ -6,6 +6,9 @@
     justify-content: space-between;
     padding: 20px 5vw 20px 5vw;
     border: 1.24px solid rgba(210, 210, 210, 1);
+    box-shadow: 0px 3px 8px 0px rgba(210, 210, 210, 1);
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(210, 210, 210, 1);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(210, 210, 210, 1);
 }
 
 .logo{
