@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
           <li className={current ==="deals"? styles.active_page:""} onClick={activeDeals}>
             <Link to='/deals'>
-              <p>home</p>
+              <p>deals</p>
               <img src={nav_on} alt="" />
             </Link>
           </li>
