@@ -5,3 +5,76 @@
     padding: 100px 8vw 100px 8vw;
     background: rgba(246, 250, 255, 1);
 }
+
+.company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.selmart{
+    font-size: 49px;
+    font-family: ralewayBold;
+    text-transform: capitalize;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.content_text{
+    font-family: openSans;
+    font-size: 14px;
+    color: rgba(88, 88, 88, 1);
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.heading{
+    font-family: ralewayBold;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.social_media{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social_media img{
+    width: 33px;
+    height: 33px;
+}
+
+.our_company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.company_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.contact{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}

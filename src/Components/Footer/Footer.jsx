@@ -13,8 +13,8 @@ const Footer = () => {
       <div className={styles.company}>
         <p className={styles.selmart}>selmart</p>
         <div className={styles.copyright}>
-          <p className={styles.copyright_text}>© 2023 Selmart Grocery.</p>
-          <p className={styles.copyright_text}>All Rights Reserved.</p>
+          <p className={styles.content_text}>© 2023 Selmart Grocery.</p>
+          <p className={styles.content_text}>All Rights Reserved.</p>
         </div>
         <div className={styles.socials}>
           <p className={styles.heading}>Follow us on</p>
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className={styles.or_company}>
+      <div className={styles.our_company}>
         <p className={styles.heading}>our company</p>
         <div className={styles.company_content}>
           <p className={styles.content_text}>about us</p>
@@ -49,7 +49,7 @@ const Footer = () => {
         <div className={styles.top_content}>
           <p className={styles.content_text}>123 Main Street,</p>
           <p className={styles.content_text}>Accra Central,</p>
-          <p className={styles.content_text}>Accra, Ghana</p>
+          <p className={styles.content_text}>Accra, Ghana.</p>
         </div>
         <div className={styles.down_content}>
           <p className={styles.content_text}>info@selmartgrocery.com</p>
