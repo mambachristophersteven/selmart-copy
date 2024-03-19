@@ -5,6 +5,7 @@ import account_icon from '../../assets/account-icon.svg'
 import support_icon from '../../assets/support-icon.svg'
 import cart_icon from '../../assets/cart-icon.svg'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -36,28 +37,29 @@ const Navbar = () => {
       <div className={styles.nav_links}>
         <ul>
           <li className={current ==="home"? styles.active_page:""} onClick={activeHome}>
-            <a href="#">
+            <Link to='/'>
               <p>home</p>
               <img src={nav_on} alt="" />
-            </a>
+            </Link>
+              
           </li>
           <li className={current ==="shop"? styles.active_page:""} onClick={activeShop}>
-            <a href="#">
+            <Link to='/shop'>
               <p>shop</p>
               <img src={nav_on} alt="" />
-            </a>
+            </Link>
           </li>
           <li className={current ==="categories"? styles.active_page:""} onClick={activeCategories}>
-            <a href="#">
+            <Link to='/categories'>
               <p>categories</p>
               <img src={nav_on} alt="" />
-            </a>
+            </Link>
           </li>
           <li className={current ==="deals"? styles.active_page:""} onClick={activeDeals}>
-            <a href="#">
-              <p>deals</p>
+            <Link to='/deals'>
+              <p>home</p>
               <img src={nav_on} alt="" />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
