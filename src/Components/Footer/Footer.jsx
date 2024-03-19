@@ -3,6 +3,9 @@ import facebook_logo from '../../assets/logo-facebook.svg'
 import twitter_logo from '../../assets/logo-twitter.svg'
 import instagram_logo from '../../assets/logo-instagram.svg'
 import linkedin_logo from '../../assets/logo-linkedin.svg'
+import solid_mobile from '../../assets/solid_mobile.svg'
+import mastercard from '../../assets/mastercard-fill.svg'
+import paypal from '../../assets/twotone-paypal.svg'
 
 const Footer = () => {
   return (
@@ -51,6 +54,14 @@ const Footer = () => {
         <div className={styles.down_content}>
           <p className={styles.content_text}> info@selmartgrocery.com</p>
           <p className={styles.content_text}> Phone: +1 (555) 123-4567</p>
+        </div>
+      </div>
+      <div className={styles.payments_and_services}>
+        <p className={styles.heading}>Payment Methods</p>
+        <div className={styles.payment_methods}>
+          <img src={solid_mobile} alt="" />
+          <img src={mastercard} alt="" />
+          <img src={paypal} alt="" />
         </div>
       </div>
     </div>
