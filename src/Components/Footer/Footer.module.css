@@ -1,4 +1,7 @@
 .footer{
     width: 100vw;
-    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 8vw 100px 8vw;
+    background: rgba(246, 250, 255, 1);
 }
