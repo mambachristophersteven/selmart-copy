@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home/Home'
+import About from './Pages/About/About'
 
 const Layout = () => {
   return(
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <h1>about</h1>
+        element: <About />,
       }
     ]
   }
