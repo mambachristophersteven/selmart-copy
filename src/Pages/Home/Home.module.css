@@ -14,6 +14,7 @@
     justify-content: space-between;
     gap: 30px;
     height: 715px;
+    padding: 0 7%;
     border-radius: 5px;
     /* padding: 20px 100px; */
     background: linear-gradient(rgba(232, 232, 232, 1),rgba(236, 246, 250, 1));
@@ -25,9 +26,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     height: 100%;
-    padding-left: 7%;
 }
 
 .home_frame .left .save_cash{
@@ -54,7 +54,26 @@
     height: 100%;
     background-image: url(../../assets/home-frame-image.png);
     background-position: center;
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-top: 88px;
+    /* margin-top: 88px; */
+    position: relative;
+    padding-top: 20px;
+}
+
+.home_frame .right img{
+    width: 205px;
+    height: 80px;
+}
+
+.point2{
+    position: absolute;
+    right: -10%;
+    bottom: 20%;
+}
+
+.point1{
+    position: absolute;
+    left: 0;
+    top: 20%;
 }
