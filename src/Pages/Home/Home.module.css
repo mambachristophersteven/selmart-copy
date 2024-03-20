@@ -1,6 +1,5 @@
 .home{
     padding: 20px 5vw 20px 5vw;
-    border: 2px solid blue;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -13,23 +12,49 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
     height: 715px;
+    border-radius: 5px;
     /* padding: 20px 100px; */
     background: linear-gradient(rgba(232, 232, 232, 1),rgba(236, 246, 250, 1));
 }
 
 .home_frame .left{
-    border: 2px solid red;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
     height: 100%;
+    padding-left: 7%;
+}
+
+.home_frame .left .save_cash{
+    font-family: openSans;
+    font-size: 18px;
+    color: black;
+}
+
+.home_frame .left .main_text{
+    font-family: ralewayBold;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+.home_frame .left .sub_text{
+    font-family: openSans;
+    font-size: 22px;
+    color: black;
+    width: 90%;
 }
 
 .home_frame .right{
-    border: 2px solid green;
     flex: 1;
     height: 100%;
     background-image: url(../../assets/home-frame-image.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: 88px;
 }
