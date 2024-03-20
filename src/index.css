@@ -39,8 +39,8 @@
     --gray-text-color: rgba(191, 191, 191, 1);
     --sel-text-color: rgba(79, 171, 70, 1);
     --mart-text-color: rgba(101, 98, 98, 1);
+    --button-color: rgba(129, 154, 105, 1);
 }
-
 
 *{
     margin: 0;
