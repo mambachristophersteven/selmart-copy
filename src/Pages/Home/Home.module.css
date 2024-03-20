@@ -78,3 +78,18 @@
     left: 0;
     top: 20%;
 }
+
+.categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.section_heading{
+    font-family: ralewayBold;
+    font-size: 45px;
+    color: black;
+    text-transform: capitalize;
+}
