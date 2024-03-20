@@ -87,6 +87,14 @@
     gap: 30px;
 }
 
+.category_cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .section_heading{
     font-family: ralewayBold;
     font-size: 45px;
