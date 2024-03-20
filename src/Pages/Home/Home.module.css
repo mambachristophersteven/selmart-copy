@@ -25,9 +25,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    gap: 30px;
+    justify-content:end;
+    gap: 20px;
     height: 100%;
+    padding-bottom: 5%;
 }
 
 .home_frame .left .save_cash{
@@ -54,7 +55,7 @@
     height: 100%;
     background-image: url(../../assets/home-frame-image.png);
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 90% 100%;
     background-repeat: no-repeat;
     /* margin-top: 88px; */
     position: relative;
