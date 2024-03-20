@@ -1,0 +1,20 @@
+.category_card{
+    border: 1px solid rgba(188, 188, 188, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 50px;
+}
+
+.category_card img{
+    width: 200px;
+    height: 200px;
+}
+
+.category_name{
+    font-family: ralewayBold;
+    font-size: 28px;
+    text-transform: capitalize;
+}

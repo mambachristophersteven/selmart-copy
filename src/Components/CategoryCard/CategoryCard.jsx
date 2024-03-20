@@ -6,7 +6,7 @@ const CategoryCard = (props) => {
   return (
     <div className={styles.category_card}>
         <img src={props.image} alt="" />
-        <p className={styles.categort_name}>{props.name}</p>
+        <p className={styles.category_name}>{props.name}</p>
     </div>
   )
 }
