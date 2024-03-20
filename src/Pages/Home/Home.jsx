@@ -2,6 +2,8 @@ import MainButton from '../../Components/MainButton/MainButton'
 import styles from './Home.module.css'
 import point1 from '../../assets/point1.png'
 import point2 from '../../assets/point2.png'
+import categories from '../../assets/categories'
+import CategoryCard from '../../Components/CategoryCard/CategoryCard'
 
 const Home = () => {
   return (
@@ -19,6 +21,14 @@ const Home = () => {
               <img src={point2} className={styles.point2} alt="" />
             </div>
           </div>
+        </div>
+        <div className={styles.categories}>
+            <p className={styles.section_heading}>Browse our hottest Categories</p>
+            <div className={styles.category_cards}>
+              {categories.map((categoryCard,i)=>{
+                return <CategoryCard key={i} name={categoryCard.name} image={categoryCard.image}/>
+              })}
+            </div>
         </div>
     </div>
   )
