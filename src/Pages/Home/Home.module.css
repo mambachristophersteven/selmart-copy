@@ -1,5 +1,35 @@
 .home{
     padding: 20px 5vw 20px 5vw;
-    border: 2px solid red;
+    border: 2px solid blue;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.home_frame{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 715px;
+    /* padding: 20px 100px; */
+    background: linear-gradient(rgba(232, 232, 232, 1),rgba(236, 246, 250, 1));
+}
+
+.home_frame .left{
+    border: 2px solid red;
+    flex: 1;
+    height: 100%;
+}
+
+.home_frame .right{
+    border: 2px solid green;
+    flex: 1;
+    height: 100%;
+    background-image: url(../../assets/home-frame-image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

@@ -11,7 +11,11 @@ const Home = () => {
             <p className={styles.sub_text}>Welcome to Selmart. Browse a Wide Selection of Fresh Produce, Pantry Staples, and More.</p>
             <MainButton text = "explore product"/>
           </div>
-          <div className={styles.right}></div>
+          <div className={styles.right}>
+            <div className="right_content">
+              <p>right</p>
+            </div>
+          </div>
         </div>
     </div>
   )
