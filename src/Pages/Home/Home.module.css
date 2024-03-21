@@ -112,3 +112,11 @@
     align-items: flex-start;
     gap: 30px;
 }
+
+.popular_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
