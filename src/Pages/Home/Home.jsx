@@ -4,6 +4,8 @@ import point1 from '../../assets/point1.png'
 import point2 from '../../assets/point2.png'
 import categories from '../../assets/categories'
 import CategoryCard from '../../Components/CategoryCard/CategoryCard'
+import PopularCard from '../../Components/PopularCard/PopularCard'
+import populars from '../../assets/populars'
 
 const Home = () => {
   return (
@@ -32,6 +34,11 @@ const Home = () => {
         </div>
         <div className={styles.populars}>
           <p className={styles.section_heading}>Checkout our Popular Products</p>
+          <div className={styles.popular_cards}>
+            {populars.map((popularCard,i)=>{
+              return <PopularCard key={i} name={popularCard.name} image={popularCard.image} old_price={popularCard.old_price} new_price={popularCard.new_price} category={popularCard.category} />
+            })}
+          </div>
         </div>
     </div>
   )
