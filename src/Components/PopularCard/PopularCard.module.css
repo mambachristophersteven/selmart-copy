@@ -41,6 +41,10 @@
     display: none;
 }
 
+.favorite{
+    display: flex;
+}
+
 .name_and_price{
     width: 100%;
     display: flex;

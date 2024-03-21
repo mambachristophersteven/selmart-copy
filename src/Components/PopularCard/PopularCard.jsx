@@ -2,17 +2,24 @@ import styles from './PopularCard.module.css'
 import favorite_icon from '../../assets/favorite.svg'
 import favorited_icon from '../../assets/favorited.svg'
 import button_cart_icon from '../../assets/button-cart-icon.svg'
+import { useState } from 'react'
 /* eslint-disable react/prop-types */
 
 
 const PopularCard = (props) => {
+    const [like, setLike] = useState(false);
+
+    function handleLike(){
+        setLike(!like);
+    }
+
   return (
     <div className={styles.popular_card}>
         <div className={styles.product_image_section}>
             <img className={styles.product_image} src={props.image} alt="" />
             <div className={styles.favoriting_icons}>
-                <img className={styles.favorite} src={favorite_icon} alt="" />
-                <img className={styles.favorited} src={favorited_icon} alt="" />
+                <img onClick={handleLike} className={like? styles.favorited: styles.favorite} src={favorite_icon} alt="" />
+                <img  onClick={handleLike} className={like? styles.favorite: styles.favorited} src={favorited_icon} alt="" />
             </div>
         </div>
         <div className={styles.name_and_price}>
