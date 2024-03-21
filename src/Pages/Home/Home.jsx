@@ -23,12 +23,15 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.categories}>
-            <p className={styles.section_heading}>Browse our hottest Categories</p>
-            <div className={styles.category_cards}>
-              {categories.map((categoryCard,i)=>{
-                return <CategoryCard key={i} name={categoryCard.name} image={categoryCard.image}/>
-              })}
-            </div>
+          <p className={styles.section_heading}>Browse our hottest Categories</p>
+          <div className={styles.category_cards}>
+            {categories.map((categoryCard,i)=>{
+              return <CategoryCard key={i} name={categoryCard.name} image={categoryCard.image}/>
+            })}
+          </div>
+        </div>
+        <div className={styles.populars}>
+          <p className={styles.section_heading}>Checkout our Popular Products</p>
         </div>
     </div>
   )
