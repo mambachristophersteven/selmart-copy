@@ -31,7 +31,7 @@ const populars = [
         old_price: 'GH¢ 35.44',
         new_price: 'GH¢ 25.44',
     },
-    
+
     {
         id:4,
         image: diary_and_eggs,
@@ -40,6 +40,7 @@ const populars = [
         old_price: 'GH¢ 50.34',
         new_price: 'GH¢ 35.40',
     },
+    
     {
         id:5,
         image: fresh_produce,
