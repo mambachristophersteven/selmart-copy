@@ -13,6 +13,7 @@ const populars = [
         old_price: 'GH¢ 25.44',
         new_price: 'GH¢ 55.44',
     },
+    
     {
         id:2,
         image: frozen_foods,
