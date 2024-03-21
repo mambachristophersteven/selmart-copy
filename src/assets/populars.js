@@ -40,7 +40,7 @@ const populars = [
         old_price: 'GH¢ 50.34',
         new_price: 'GH¢ 35.40',
     },
-    
+
     {
         id:5,
         image: fresh_produce,
@@ -49,6 +49,7 @@ const populars = [
         old_price: 'GH¢ 95.44',
         new_price: 'GH¢ 75.44',
     },
+    
     {
         id:6,
         image: meat_and_seafood,
