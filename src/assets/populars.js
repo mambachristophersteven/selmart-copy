@@ -4,7 +4,6 @@ import fresh_produce from './fresh-produce.png'
 import meat_and_seafood from './meat-and-seafood.png'
 import frozen_foods from './frozen-foods.png'
 
-
 const populars = [
     {
         id:1,
