@@ -97,15 +97,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* {
-        categories.map(categoryItem=>{
-          return(
-          <div key={categoryItem.id}>
-            <p>{categoryItem.name}, {categoryItem.id}</p>
-          </div>
-        )})
-
-      } */}
+      
         
     </div>
   )
