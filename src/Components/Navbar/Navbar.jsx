@@ -24,7 +24,6 @@ const Navbar = () => {
     setCurrent("deals");
   }
 
-
   return (
     <div className={styles.navbar}>
       <div className={styles.logo}>
