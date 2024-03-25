@@ -40,6 +40,10 @@ const Home = () => {
             })}
           </div>
         </div>
+        <div className={styles.off_deals}>
+          <div className={styles.deals_left}></div>
+          <div className={styles.deals_right}></div>
+        </div>
     </div>
   )
 }
