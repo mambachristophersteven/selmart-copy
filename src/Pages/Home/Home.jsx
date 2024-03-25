@@ -59,7 +59,11 @@ const Home = () => {
         </div>
         <div className={styles.flash_sales}>
           <p className={styles.section_heading}>Flash Sales</p>
-          
+          <div className={styles.flash_cards}>
+            {populars.map((popularCard,i)=>{
+              return <PopularCard key={i} name={popularCard.name} image={popularCard.image} old_price={popularCard.old_price} new_price={popularCard.new_price} category={popularCard.category} />
+            })}
+          </div>
         </div>
     </div>
   )
