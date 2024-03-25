@@ -10,6 +10,7 @@ import CategoryCard from '../../Components/CategoryCard/CategoryCard'
 import PopularCard from '../../Components/PopularCard/PopularCard'
 import populars from '../../assets/populars'
 import flashDeals from '../../assets/flashDeals'
+import FlashCard from '../../Components/FlashCard/FlashCard'
 
 const Home = () => {
   return (
@@ -62,7 +63,7 @@ const Home = () => {
           <p className={styles.section_heading}>Flash Sales</p>
           <div className={styles.popular_cards}>
             {flashDeals.map((popularDeal,i)=>{
-              return <PopularCard key={i} name={popularDeal.name} image={popularDeal.image} old_price={popularDeal.old_price} new_price={popularDeal.new_price} category={popularDeal.category} deal={popularDeal.deal}/>
+              return <FlashCard key={i} name={popularDeal.name} image={popularDeal.image} old_price={popularDeal.old_price} new_price={popularDeal.new_price} category={popularDeal.category} deal={popularDeal.deal}/>
             })}
           </div>
         </div>

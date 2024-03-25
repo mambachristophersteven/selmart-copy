@@ -14,6 +14,9 @@ const FlashCard = (props) => {
     }
   return (
     <div className={styles.popular_card}>
+        <div className={styles.deal}>
+            <p className={styles.percentage}>{props.deal}</p>
+        </div>
         <div className={styles.product_image_section}>
             <img className={styles.product_image} src={props.image} alt="" />
             <div className={styles.favoriting_icons}>
