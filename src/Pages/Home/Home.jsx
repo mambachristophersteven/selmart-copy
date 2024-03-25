@@ -11,6 +11,8 @@ import PopularCard from '../../Components/PopularCard/PopularCard'
 import populars from '../../assets/populars'
 import flashDeals from '../../assets/flashDeals'
 import FlashCard from '../../Components/FlashCard/FlashCard'
+import CustomerCard from '../../Components/CustomerCard/CustomerCard'
+import customers from '../../assets/customers'
 
 const Home = () => {
   return (
@@ -69,6 +71,11 @@ const Home = () => {
         </div>
         <div className="reviews">
           <p className={styles.section_heading}>Customer reviews</p>
+          <div className={styles.popular_cards}>
+            {customers.map((customerReview,i)=>{
+              return <CustomerCard key={i} name={customerReview.name} image={customerReview.image} message={customerReview.message} />
+            })}
+          </div>
         </div>
     </div>
   )

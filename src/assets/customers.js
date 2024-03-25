@@ -2,7 +2,7 @@ import customer1 from '../assets/customer1.png'
 import customer2 from '../assets/customer2.png'
 import customer3 from '../assets/customer3.png'
 
-const flashDeals = [
+const customers = [
     {
         id:1,
         image: customer1,
@@ -24,4 +24,4 @@ const flashDeals = [
 
 ]
 
-export default flashDeals;
+export default customers;
