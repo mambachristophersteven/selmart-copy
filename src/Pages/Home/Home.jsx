@@ -69,7 +69,7 @@ const Home = () => {
             })}
           </div>
         </div>
-        <div className="reviews">
+        <div className={styles.reviews}>
           <p className={styles.section_heading}>Customer reviews</p>
           <div className={styles.popular_cards}>
             {customers.map((customerReview,i)=>{
