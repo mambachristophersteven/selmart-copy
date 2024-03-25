@@ -2,6 +2,7 @@ import MainButton from '../../Components/MainButton/MainButton'
 import styles from './Home.module.css'
 import point1 from '../../assets/point1.png'
 import point2 from '../../assets/point2.png'
+import star from '../../assets/star.svg'
 import categories from '../../assets/categories'
 import CategoryCard from '../../Components/CategoryCard/CategoryCard'
 import PopularCard from '../../Components/PopularCard/PopularCard'
@@ -41,8 +42,14 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.off_deals}>
-          <div className={styles.deals_left}></div>
-          <div className={styles.deals_right}></div>
+          <div className={styles.deals_left}>
+            <img src={star} alt="" />
+          </div>
+          <div className={styles.deals_right}>
+            <p className={styles.deal_main_text}>Get 30% off this week for purchases above ¢150</p>
+            <p className={styles.deal_sub_text}>What are you waiting for, browse through our hotest category and purchase your healthy groceries from Selmart.</p>
+            <MainButton text = "shop now"/>
+          </div>
         </div>
     </div>
   )
