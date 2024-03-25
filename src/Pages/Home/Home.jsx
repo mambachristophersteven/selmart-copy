@@ -67,6 +67,9 @@ const Home = () => {
             })}
           </div>
         </div>
+        <div className="reviews">
+          <p className={styles.section_heading}>Customer reviews</p>
+        </div>
     </div>
   )
 }
