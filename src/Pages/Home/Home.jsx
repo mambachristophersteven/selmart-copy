@@ -57,6 +57,10 @@ const Home = () => {
             <MainButton text = "shop now"/>
           </div>
         </div>
+        <div className={styles.flash_sales}>
+          <p className={styles.section_heading}>Flash Sales</p>
+          
+        </div>
     </div>
   )
 }
