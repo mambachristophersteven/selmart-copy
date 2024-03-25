@@ -9,6 +9,7 @@ import categories from '../../assets/categories'
 import CategoryCard from '../../Components/CategoryCard/CategoryCard'
 import PopularCard from '../../Components/PopularCard/PopularCard'
 import populars from '../../assets/populars'
+import flashDeals from '../../assets/flashDeals'
 
 const Home = () => {
   return (
@@ -59,9 +60,9 @@ const Home = () => {
         </div>
         <div className={styles.flash_sales}>
           <p className={styles.section_heading}>Flash Sales</p>
-          <div className={styles.flash_cards}>
-            {populars.map((popularCard,i)=>{
-              return <PopularCard key={i} name={popularCard.name} image={popularCard.image} old_price={popularCard.old_price} new_price={popularCard.new_price} category={popularCard.category} />
+          <div className={styles.popular_cards}>
+            {flashDeals.map((popularDeal,i)=>{
+              return <PopularCard key={i} name={popularDeal.name} image={popularDeal.image} old_price={popularDeal.old_price} new_price={popularDeal.new_price} category={popularDeal.category} deal={popularDeal.deal}/>
             })}
           </div>
         </div>
