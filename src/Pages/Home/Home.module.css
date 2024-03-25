@@ -173,3 +173,24 @@
     font-family: openSans;
     font-size: 18px;
 }
+
+.deals_left .deals_left_content{
+    position: relative;
+}
+
+.off_deals .deals_left img{
+    width: 205px;
+    height: 80px;
+}
+
+.point3{
+    position: absolute;
+    right: 7%;
+    top: 20%;
+}
+
+.point4{
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+}

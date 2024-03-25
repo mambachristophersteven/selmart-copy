@@ -2,6 +2,8 @@ import MainButton from '../../Components/MainButton/MainButton'
 import styles from './Home.module.css'
 import point1 from '../../assets/point1.png'
 import point2 from '../../assets/point2.png'
+import point3 from '../../assets/point3.png'
+import point4 from '../../assets/point4.png'
 import star from '../../assets/star.svg'
 import categories from '../../assets/categories'
 import CategoryCard from '../../Components/CategoryCard/CategoryCard'
@@ -44,6 +46,10 @@ const Home = () => {
         <div className={styles.off_deals}>
           <div className={styles.deals_left}>
             <img src={star} alt="" />
+            <div className="deals_left_content">
+              <img src={point3} className={styles.point3} alt="" />
+              <img src={point4} className={styles.point4} alt="" />
+            </div>
           </div>
           <div className={styles.deals_right}>
             <p className={styles.deal_main_text}>Get 30% off this week for purchases above ¢150.</p>
