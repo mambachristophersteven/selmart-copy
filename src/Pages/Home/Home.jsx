@@ -13,6 +13,7 @@ import flashDeals from '../../assets/flashDeals'
 import FlashCard from '../../Components/FlashCard/FlashCard'
 import CustomerCard from '../../Components/CustomerCard/CustomerCard'
 import customers from '../../assets/customers'
+import Newsletter from '../../Components/Newsletter/Newsletter'
 
 const Home = () => {
   return (
@@ -77,6 +78,7 @@ const Home = () => {
             })}
           </div>
         </div>
+        <Newsletter />
     </div>
   )
 }
