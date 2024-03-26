@@ -2,14 +2,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     /* border: 2px solid red; */
     height: 465px;
     justify-content: center;
     padding: 30px;
     width: 30%;
+    position: relative;
     /* border: 1.24px solid rgba(210, 210, 210, 1); */
     box-shadow: 0px 3px 8px 0px rgba(210, 210, 210, 1);
     -webkit-box-shadow: 0px 3px 8px 0px rgba(210, 210, 210, 1);
     -moz-box-shadow: 0px 3px 8px 0px rgba(210, 210, 210, 1);
+}
+
+.quote{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.customer_name{
+    font-family: ralewayBold;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.customer_message{
+    font-family: openSans;
+    font-size: 18px;
+    color: rgba(88, 88, 88, 1);
+    text-align: center;
 }
