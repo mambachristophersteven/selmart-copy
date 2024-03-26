@@ -97,6 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .cart_button button{
@@ -108,8 +109,15 @@
     gap: 10px;
     height: 60px;
     border-radius: 15px;
+    cursor: pointer;
+
 }
 
 .cart_button button img{
     width: 15px;
+}
+
+.button_text{
+    text-transform: capitalize;
+    font-family: ralewayXBold;
 }
