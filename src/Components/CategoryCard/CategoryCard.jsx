@@ -10,4 +10,5 @@ const CategoryCard = (props) => {
   )
 }
 
+
 export default CategoryCard 
