@@ -11,4 +11,4 @@ const CategoryCard = (props) => {
 }
 
 
-export default CategoryCard
+export default CategoryCard 
